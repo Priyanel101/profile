@@ -1,0 +1,406 @@
+.workExperince {
+  color: var(--color-coral);
+}
+.myWorkExperinceContainer {
+  margin: 0;
+  width: 572px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.myWorkExperinceWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cognizantMumbai,
+.sep2016July {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+}
+.cognizantMumbai {
+  align-self: stretch;
+  font-weight: 600;
+}
+.sep2016July {
+  width: 216px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkgray);
+  display: inline-block;
+}
+.cognizantMumbaiParent {
+  width: 361px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.sep2020July,
+.sugeePvtLimited {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+}
+.sugeePvtLimited {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.sep2020July {
+  width: 219px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkgray);
+  display: inline-block;
+}
+.sugeePvtLimitedMumbaiParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.cinetstoxMumbai,
+.sep2023 {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+}
+.cinetstoxMumbai {
+  align-self: stretch;
+  font-weight: 600;
+}
+.sep2023 {
+  width: 102px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkgray);
+  display: inline-block;
+}
+.cinetstoxMumbaiParent,
+.iconLibrary {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.iconLibrary {
+  width: 495px;
+  gap: var(--gap-83xl);
+}
+.frameChild {
+  height: 397px;
+  width: 3px;
+  position: absolute;
+  margin: 0 !important;
+  right: 21px;
+  bottom: -349px;
+  border-right: 3px dashed var(--color-darkslategray-300);
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 36px;
+  width: 46px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-coral);
+}
+.ellipseWrapper,
+.lineParent {
+  display: flex;
+  flex-direction: row;
+}
+.ellipseWrapper {
+  height: 50px;
+  width: 50px;
+  border-radius: var(--br-29xl);
+  background-color: var(--white);
+  border: 2px dashed var(--color-gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+.lineParent {
+  height: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameInner {
+  height: 36px;
+  width: 46px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+}
+.experienceDotsContainerInner {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--br-29xl);
+  background-color: var(--white);
+  border: 2px dashed var(--color-gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ellipseDiv {
+  height: 36px;
+  width: 46px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-coral);
+}
+.experienceDotsContainerChild {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--br-29xl);
+  background-color: var(--white);
+  border: 2px dashed var(--color-gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.experienceDotsContainer,
+.experienceDotsContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.experienceDotsContainer {
+  flex-direction: column;
+  gap: var(--gap-109xl);
+  z-index: 1;
+}
+.experienceDotsContainerWrapper {
+  flex-direction: row;
+}
+.experinceDesigner,
+.loremIpsumDolor {
+  position: relative;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.experinceDesigner {
+  width: 359px;
+  line-height: 100%;
+  font-weight: 600;
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  margin: 0;
+  align-self: stretch;
+  height: 78px;
+  font-size: var(--font-size-xl);
+  line-height: 23px;
+  font-weight: 500;
+  color: var(--color-darkgray);
+  min-height: 78px;
+}
+.experienceDescriptions {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.loremIpsumDolor1,
+.uiuxDesigner {
+  position: relative;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.uiuxDesigner {
+  width: 286px;
+  line-height: 100%;
+  font-weight: 600;
+}
+.loremIpsumDolor1 {
+  margin: 0;
+  align-self: stretch;
+  height: 78px;
+  font-size: var(--font-size-xl);
+  line-height: 23px;
+  font-weight: 500;
+  color: var(--color-darkgray);
+  min-height: 78px;
+}
+.experienceDescriptions1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.leadUxDesigner {
+  margin: 0;
+  width: 330px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.experienceDescriptionsContai {
+  width: 444px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.desktop1Inner,
+.experienceDescriptionsContai,
+.frameParent,
+.iconLibraryParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.iconLibraryParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-21xl);
+}
+.desktop1Inner,
+.frameParent {
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-66xl);
+}
+.desktop1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-52xl) var(--padding-136xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 1200px) {
+  .iconLibraryParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 825px) {
+  .myWorkExperinceContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+  .cinetstoxMumbai,
+  .cognizantMumbai,
+  .sugeePvtLimited {
+    font-size: var(--font-size-13xl);
+    line-height: 32px;
+  }
+  .iconLibrary {
+    gap: var(--gap-32xl);
+  }
+  .experinceDesigner,
+  .leadUxDesigner,
+  .uiuxDesigner {
+    font-size: var(--font-size-13xl);
+    line-height: 32px;
+  }
+  .frameParent {
+    gap: var(--gap-23xl);
+  }
+  .desktop1Inner {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    padding-bottom: var(--padding-82xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .myWorkExperinceContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .cognizantMumbai {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .sep2016July {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .sugeePvtLimited {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .sep2020July {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .cinetstoxMumbai {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .sep2023 {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .experinceDesigner {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-base);
+  }
+  .uiuxDesigner {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .loremIpsumDolor1 {
+    font-size: var(--font-size-base);
+  }
+  .leadUxDesigner {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .experienceDescriptionsContai {
+    gap: var(--gap-5xl);
+  }
+  .frameParent {
+    gap: var(--gap-2xl);
+  }
+}

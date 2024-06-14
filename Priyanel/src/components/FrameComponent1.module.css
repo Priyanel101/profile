@@ -1,0 +1,283 @@
+.blogPost,
+.fromMy {
+  margin: 0;
+}
+.fromMyBlogPostContainer,
+.home {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+.fromMyBlogPostContainer {
+  margin: 0;
+  height: 126px;
+  font-size: inherit;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.home {
+  font-size: var(--font-size-xl);
+  font-family: var(--font-lufga);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 64px;
+}
+.homeWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-21xl);
+  background-color: var(--color-coral);
+  border-radius: var(--br-41xl);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.homeWrapper:hover {
+  background-color: var(--color-chocolate);
+}
+.blogHeading,
+.blogHomeButton,
+.homeWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.blogHomeButton {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0 0;
+}
+.blogHeading {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.blogPostContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.iconOutlinedDirections {
+  height: 72px;
+  width: 72px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  transform: rotate(90deg);
+}
+.iconOutlinedDirectionsWrapper {
+  height: 114px;
+  width: 114px;
+  border-radius: var(--br-38xl);
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl);
+  box-sizing: border-box;
+  transform: rotate(-90deg);
+  z-index: 1;
+}
+.blogPostContainerParent {
+  align-self: stretch;
+  height: 432px;
+  filter: drop-shadow(0 4px 55px rgba(0, 0, 0, 0.05));
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.uiuxDesign {
+  position: relative;
+}
+.component6 {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-whitesmoke-500);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-13xl);
+  white-space: nowrap;
+  color: var(--color-black);
+}
+.authorIcon {
+  width: 9px;
+  height: 9px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-coral);
+}
+.blogAuthorIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 0;
+}
+.jayeshPatil {
+  position: relative;
+  display: inline-block;
+  min-width: 113px;
+}
+.blogAuthorIconParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.dateIcon {
+  width: 9px;
+  height: 9px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-coral);
+}
+.dateIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs-5) 0 0;
+}
+.nov2023 {
+  position: relative;
+  display: inline-block;
+  min-width: 126px;
+}
+.blogPostAuthor,
+.blogPostDate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.blogPostAuthor {
+  gap: var(--gap-16xl);
+}
+.designUnraveledBehind,
+.theScenesOf {
+  margin: 0;
+}
+.designUnraveledBehindTheContainer {
+  margin: 0;
+  height: 84px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 400;
+  font-family: var(--font-lufga);
+  display: inline-block;
+}
+.instanceParent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+}
+.blogContent,
+.blogContentWrapper,
+.blogPosts,
+.instanceParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.blogPosts {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-6xl-5);
+  grid-template-columns: repeat(3, minmax(312px, 1fr));
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+}
+.blogContent,
+.blogContentWrapper {
+  display: flex;
+}
+.blogContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-29xl);
+}
+.blogContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-51xl) var(--padding-78xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 1200px) {
+  .blogPosts {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(312px, 541px));
+  }
+  .blogContentWrapper {
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .fromMyBlogPostContainer {
+    font-size: var(--font-size-19xl);
+  }
+  .designUnraveledBehindTheContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .blogPosts {
+    grid-template-columns: minmax(312px, 1fr);
+  }
+  .blogContent {
+    gap: var(--gap-5xl);
+  }
+  .blogContentWrapper {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    padding-bottom: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fromMyBlogPostContainer {
+    font-size: var(--font-size-10xl);
+  }
+  .blogHeading {
+    flex-wrap: wrap;
+  }
+  .jayeshPatil,
+  .nov2023 {
+    font-size: var(--font-size-base);
+  }
+  .blogPostAuthor {
+    flex-wrap: wrap;
+    gap: var(--gap-mid);
+  }
+  .designUnraveledBehindTheContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .instanceParent {
+    gap: var(--gap-mid);
+  }
+}

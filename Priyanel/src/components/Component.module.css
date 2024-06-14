@@ -1,0 +1,120 @@
+.cardContentContainer {
+  height: 54.8px;
+  width: 54.8px;
+  position: relative;
+  object-fit: cover;
+  min-height: 55px;
+}
+.jayeshPatil {
+  position: relative;
+  font-weight: 700;
+}
+.ceoLirante {
+  position: relative;
+  font-size: var(--font-size-lg-3);
+}
+.cardColumns,
+.testimonialContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonialContent {
+  flex-direction: column;
+  padding: 0 0 var(--padding-8xs-8);
+}
+.cardColumns {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-family: var(--font-urbanist);
+}
+.iconstar,
+.iconstar1,
+.iconstar2,
+.iconstar3,
+.iconstar4 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.starsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.testimonialSeparator {
+  height: 34px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  display: inline-block;
+}
+.testimonialRating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-6xl-7);
+}
+.consecteturAdipiscingElit {
+  margin: 0;
+  align-self: stretch;
+  height: 106px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  color: var(--color-whitesmoke-400);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.vuesaxboldquoteDownIcon {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  left: 642px;
+  z-index: 1;
+}
+.component7 {
+  margin-left: -808px;
+  width: 784px;
+  backdrop-filter: blur(14px);
+  border-radius: var(--br-5xl);
+  background-color: var(--color-gray-800);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-sm) var(--padding-2xl)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-sm);
+  min-height: 265px;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-4xl-5);
+  color: var(--color-gray-100);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 450px) {
+  .jayeshPatil {
+    font-size: var(--font-size-lgi);
+  }
+  .testimonialSeparator {
+    font-size: var(--font-size-2xl);
+  }
+  .consecteturAdipiscingElit {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,120 @@
+.footerPageChild {
+  position: absolute;
+  top: -0.5px;
+  left: 511.5px;
+  border-right: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 1px;
+  height: 401px;
+}
+.homeIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home,
+.homeIcon {
+  position: relative;
+}
+.homeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.userIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.aboutMe,
+.userIcon {
+  position: relative;
+}
+.userParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.phoneIcon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.contact,
+.phoneIcon {
+  position: relative;
+}
+.frameParent,
+.phoneParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.phoneParent {
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.frameParent {
+  position: absolute;
+  top: 100px;
+  left: 483px;
+  gap: var(--gap-29xl);
+}
+.frameChild,
+.frameIcon,
+.frameInner,
+.frameItem {
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-31xl);
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameGroup {
+  position: absolute;
+  top: 185px;
+  left: 588px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.termsOfService {
+  position: relative;
+}
+.termsOfServicePrivacyPolWrapper {
+  position: absolute;
+  top: 277px;
+  left: 959px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) var(--padding-77xl);
+  color: var(--color-whitesmoke-300);
+}
+.footerPage {
+  position: absolute;
+  top: 4096px;
+  left: 0;
+  background-color: var(--color-1);
+  width: 1440px;
+  height: 400px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-3);
+  font-family: var(--font-poppins);
+}

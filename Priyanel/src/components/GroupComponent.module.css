@@ -1,0 +1,228 @@
+.groupChild,
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-silver);
+  width: 101px;
+  height: 97px;
+}
+.groupInner,
+.groupItem {
+  top: 253px;
+}
+.groupInner {
+  top: 631px;
+  left: 2px;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3,
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8,
+.rectangleDiv {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-silver);
+  width: 101px;
+  height: 97px;
+}
+.groupChild1,
+.groupChild2,
+.groupChild3,
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 503px;
+  left: 2px;
+}
+.groupChild2,
+.groupChild3,
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 378px;
+  left: 0;
+}
+.groupChild3,
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 756px;
+  left: 2px;
+}
+.groupChild4,
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 0;
+  left: 126px;
+}
+.groupChild5,
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 253px;
+}
+.groupChild6,
+.groupChild7,
+.groupChild8 {
+  top: 631px;
+  left: 128px;
+}
+.groupChild7,
+.groupChild8 {
+  top: 125px;
+  left: 126px;
+}
+.groupChild8 {
+  top: 503px;
+  left: 128px;
+}
+.groupChild10,
+.groupChild11,
+.groupChild12,
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16,
+.groupChild9 {
+  position: absolute;
+  top: 378px;
+  left: 126px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-silver);
+  width: 101px;
+  height: 97px;
+}
+.groupChild10,
+.groupChild11,
+.groupChild12,
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 756px;
+  left: 128px;
+}
+.groupChild11,
+.groupChild12,
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 0;
+  left: 252px;
+}
+.groupChild12,
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 253px;
+}
+.groupChild13,
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 631px;
+  left: 254px;
+}
+.groupChild14,
+.groupChild15,
+.groupChild16 {
+  top: 125px;
+  left: 252px;
+}
+.groupChild15,
+.groupChild16 {
+  top: 503px;
+  left: 254px;
+}
+.groupChild16 {
+  top: 378px;
+  left: 252px;
+}
+.groupChild17,
+.groupChild18,
+.groupChild19,
+.groupChild20,
+.groupChild21,
+.groupChild22,
+.groupChild23 {
+  position: absolute;
+  top: 756px;
+  left: 254px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-silver);
+  width: 227px;
+  height: 97px;
+}
+.groupChild18,
+.groupChild19,
+.groupChild20,
+.groupChild21,
+.groupChild22,
+.groupChild23 {
+  top: 0;
+  left: 378px;
+  width: 101px;
+}
+.groupChild19,
+.groupChild20,
+.groupChild21,
+.groupChild22,
+.groupChild23 {
+  top: 253px;
+}
+.groupChild20,
+.groupChild21,
+.groupChild22,
+.groupChild23 {
+  top: 631px;
+  left: 380px;
+}
+.groupChild21,
+.groupChild22,
+.groupChild23 {
+  top: 125px;
+  left: 378px;
+}
+.groupChild22,
+.groupChild23 {
+  top: 503px;
+  left: 380px;
+}
+.groupChild23 {
+  top: 378px;
+  left: 378px;
+}
+.svgSpinners3DotsBounce {
+  position: absolute;
+  top: 741px;
+  left: 350px;
+  width: 102px;
+  height: 63px;
+  overflow: hidden;
+}
+.rectangleParent {
+  position: absolute;
+  top: 76px;
+  left: 835px;
+  width: 481px;
+  height: 853px;
+}

@@ -1,0 +1,256 @@
+.letsDiscuss {
+  color: var(--color-coral);
+}
+.haveAnAwsomeContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.projectIdeaHeading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  color: var(--color-darkslategray-300);
+}
+.vuesaxboldsmsIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.vuesaxboldsmsWrapper {
+  align-self: stretch;
+  width: 64px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-antiquewhite);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.enterEmailAddress {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+.emailField {
+  flex-direction: column;
+  padding: var(--padding-lg-1) 0 0;
+}
+.emailAddress,
+.emailField,
+.emailInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailAddress {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.emailInput {
+  height: 61px;
+  width: 254px;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.home {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: var(--font-urbanist);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 46px;
+}
+.emailInputParent,
+.homeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.homeWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-21xl);
+  background-color: var(--color-coral);
+  border-radius: var(--br-41xl);
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.homeWrapper:hover {
+  background-color: var(--color-chocolate);
+}
+.emailInputParent {
+  align-self: stretch;
+  backdrop-filter: blur(15px);
+  border-radius: var(--br-31xl);
+  border: 1px solid var(--gray-200);
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-mini) var(--padding-4xs)
+    var(--padding-smi);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-urbanist);
+}
+.vuesaxboldstarIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.averageRatings {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.averageRatingsWrapper,
+.ratingItems {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.averageRatingsWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.ratingItems {
+  width: 186px;
+  flex-direction: row;
+}
+.vuesaxboldawardIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.winningAwards {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.ratingItems1,
+.winningAwardsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.winningAwardsWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.ratingItems1 {
+  width: 175px;
+  flex-direction: row;
+}
+.vuesaxboldshieldTickIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.certifiedProductDesigner {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.certifiedProductDesignerWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.ratingIcons,
+.ratingItems2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ratingItems2 {
+  width: 223px;
+  justify-content: flex-start;
+}
+.ratingIcons {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.ratingIconsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.projectIdeaContent,
+.projectIdeaContentWrapper,
+.ratingIconsWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.projectIdeaContent {
+  width: 832px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.projectIdeaContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-79xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 825px) {
+  .haveAnAwsomeContainer {
+    font-size: var(--font-size-32xl);
+  }
+  .emailInputParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ratingIcons {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .haveAnAwsomeContainer {
+    font-size: var(--font-size-19xl);
+  }
+  .enterEmailAddress,
+  .home {
+    font-size: var(--font-size-base);
+  }
+  .projectIdeaContentWrapper {
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}

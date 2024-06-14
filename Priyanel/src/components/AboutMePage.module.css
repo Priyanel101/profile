@@ -1,0 +1,102 @@
+.aboutMePageChild,
+.gradient {
+  position: absolute;
+  border-radius: 50%;
+}
+.gradient {
+  top: 17px;
+  left: -310px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(110, 191, 244, 0.22),
+    rgba(50, 15, 133, 0)
+  );
+  width: 750px;
+  height: 736px;
+}
+.aboutMePageChild {
+  top: 799px;
+  left: 824px;
+  background-color: var(--color-gray-200);
+  width: 348px;
+  height: 24px;
+}
+.aboutMePageInner,
+.aboutMePageItem {
+  position: absolute;
+  box-sizing: border-box;
+}
+.aboutMePageItem {
+  top: -0.5px;
+  left: 511.5px;
+  border-right: 1px solid var(--color-whitesmoke-200);
+  width: 1px;
+  height: 1025px;
+}
+.aboutMePageInner {
+  top: 891.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-whitesmoke-200);
+  width: 1441px;
+  height: 1px;
+}
+.span {
+  color: var(--white);
+}
+.me {
+  color: var(--color-steelblue);
+}
+.aboutMe,
+.iAmHighly {
+  position: absolute;
+  top: 256px;
+  left: 96px;
+}
+.iAmHighly {
+  top: 354px;
+  left: 22px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  font-family: var(--font-ibm-plex-mono);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+  width: 471px;
+  height: 288px;
+}
+.doodleItemsIcon {
+  position: absolute;
+  top: 230px;
+  left: 664px;
+  width: 665.3px;
+  height: 499px;
+  overflow: hidden;
+}
+.groupIcon,
+.lightbulbIcon {
+  position: absolute;
+  top: 214px;
+  left: 438px;
+  width: 78px;
+  height: 99.9px;
+  object-fit: contain;
+}
+.groupIcon {
+  top: 135px;
+  left: 96px;
+  width: 1088.7px;
+  height: 736px;
+}
+.aboutMePage {
+  position: absolute;
+  top: 1024px;
+  left: 0;
+  background-color: var(--color-1);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-3);
+  font-family: var(--font-poppins);
+}

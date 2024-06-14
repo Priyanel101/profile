@@ -1,0 +1,285 @@
+.instanceParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  min-height: 846px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.portfolio {
+  color: var(--color-coral);
+}
+.letsHaveAContainer1 {
+  width: 100%;
+}
+.home,
+.letsHaveAContainer {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.letsHaveAContainer {
+  margin: 0;
+  width: 643px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.home {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: var(--font-lufga);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 64px;
+}
+.homeWrapper,
+.instanceWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.homeWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-21xl);
+  background-color: var(--color-coral);
+  border-radius: var(--br-41xl);
+  overflow: hidden;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.homeWrapper:hover {
+  background-color: var(--color-chocolate);
+}
+.instanceWrapper {
+  flex-direction: column;
+  padding: var(--padding-23xl) 0 0;
+}
+.letsHaveALookAtMyPortfolParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.portfolioDotsContainer {
+  height: 15.1px;
+  flex: 1;
+  position: relative;
+  border-radius: 20.74px;
+  background-color: var(--color-coral);
+}
+.portfolioDotsContainer1,
+.portfolioDotsContainer2,
+.portfolioDotsContainer3 {
+  height: 15.1px;
+  width: 15.1px;
+  position: relative;
+  border-radius: 20.74px;
+  background-color: var(--gray-200);
+}
+.dots,
+.dotsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.dots {
+  width: 139.5px;
+  justify-content: flex-start;
+  gap: var(--gap-xs-3);
+}
+.dotsWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.liranteFood {
+  margin: 0;
+  height: 63px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  min-width: 433px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 58px;
+  width: 58px;
+  border-radius: var(--br-41xl);
+  object-fit: contain;
+}
+.liranteFoodDilverySolutioParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.loremIpsumDolor {
+  margin: 0;
+  align-self: stretch;
+  height: 61px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 742px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-29xl);
+}
+.desktop1Inner,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-29xl);
+}
+.desktop1Inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-52xl) var(--padding-78xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-lufga);
+}
+.componentTwoContainer {
+  height: 275.2px;
+  width: 4864.1px;
+  margin: 0 !important;
+  position: absolute;
+  top: -128px;
+  right: -3405.1px;
+  object-fit: contain;
+}
+.component11,
+.componentInstanceTwo,
+.desktop1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component11 {
+  height: 147px;
+  flex: 1;
+  border-radius: var(--br-5xl) 0 var(--br-5xl) 0;
+  background-color: #fb6514;
+  overflow: hidden;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.componentInstanceTwo,
+.desktop1 {
+  box-sizing: border-box;
+}
+.componentInstanceTwo {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-78xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.desktop1 {
+  width: 100%;
+  height: 7845px;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-21xl) 0 781.9px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .letsHaveALookAtMyPortfolParent {
+    flex-wrap: wrap;
+  }
+  .desktop1Inner {
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .letsHaveAContainer {
+    font-size: var(--font-size-32xl);
+  }
+  .liranteFood {
+    font-size: var(--font-size-19xl);
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-5xl);
+  }
+  .desktop1Inner {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    padding-bottom: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .instanceParent {
+    height: auto;
+  }
+  .letsHaveAContainer {
+    font-size: var(--font-size-19xl);
+  }
+  .liranteFood {
+    font-size: var(--font-size-10xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-base);
+  }
+  .desktop1 {
+    height: auto;
+  }
+}

@@ -1,0 +1,146 @@
+.contactPageChild {
+  position: absolute;
+  top: 749px;
+  left: 302px;
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+  width: 190px;
+  height: 24px;
+}
+.contactPageItem {
+  position: absolute;
+  top: -0.5px;
+  left: 511.5px;
+  border-right: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 1px;
+  height: 1025px;
+}
+.contactPageInner,
+.keyboardIcon,
+.mailIcon {
+  position: absolute;
+  top: 450px;
+  left: 118px;
+  width: 182.6px;
+  height: 203.5px;
+  object-fit: contain;
+}
+.keyboardIcon,
+.mailIcon {
+  top: 783px;
+  left: 1200px;
+  width: 75px;
+  height: 71.7px;
+}
+.keyboardIcon {
+  top: 0;
+  left: 1010px;
+  width: 153px;
+  height: 115.4px;
+}
+.lineDiv {
+  position: absolute;
+  top: 1023.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 1441px;
+  height: 1px;
+}
+.gradient {
+  position: absolute;
+  top: 184px;
+  left: -166px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(110, 191, 244, 0.22),
+    rgba(50, 15, 133, 0)
+  );
+  width: 750px;
+  height: 736px;
+}
+.skills {
+  position: absolute;
+  top: 0;
+  left: 242px;
+  font-size: var(--font-size-119xl);
+  font-weight: 800;
+  background: linear-gradient(
+    90deg,
+    #527fff,
+    #2070be 36.98%,
+    #5776e6 70.31%,
+    #bcdaf8
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: right;
+}
+.softSkills {
+  position: absolute;
+  top: 371px;
+  left: 671px;
+  filter: blur(4.8px);
+}
+.programmingLanguages {
+  background: linear-gradient(
+    89.79deg,
+    #c58fb2,
+    rgba(203, 96, 96, 0.51) 48.96%,
+    #7cbefd
+  );
+}
+.frameworks,
+.programmingLanguages,
+.tools {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tools {
+  background: linear-gradient(270deg, #a1ea6f, #d4ecc3);
+}
+.frameworks {
+  background: linear-gradient(-88.45deg, #8f89fa, rgba(157, 152, 237, 0));
+}
+.concepts {
+  color: var(--color-plum);
+}
+.cloudServices {
+  background: linear-gradient(90deg, #f0b762, #7594ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.softSkills1 {
+  color: var(--color-goldenrod);
+}
+.iAmPleasedContainer {
+  position: absolute;
+  top: 245px;
+  left: 0;
+  display: inline-block;
+  width: 908px;
+  height: 221px;
+  color: var(--white);
+}
+.contactPage,
+.skillsTxt {
+  position: absolute;
+  top: 184px;
+  left: 255px;
+  width: 908px;
+  height: 466px;
+}
+.contactPage {
+  top: 2048px;
+  left: 0;
+  background-color: var(--color-1);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-goldenrod);
+  font-family: var(--font-rethink-sans);
+}

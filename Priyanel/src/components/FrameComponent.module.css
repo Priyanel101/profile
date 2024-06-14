@@ -1,0 +1,437 @@
+.hireMe,
+.letsConnectThere {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.letsConnectThere {
+  margin: 0;
+  height: 150px;
+  width: 643px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.hireMe {
+  height: 34px;
+  font-size: var(--font-size-6xl-7);
+  font-weight: 500;
+  font-family: var(--font-lufga);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 93px;
+}
+.iconOutlinedDirections {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.component12 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-14xl);
+  background-color: var(--color-coral);
+  border-radius: var(--br-41xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.component12:hover {
+  background-color: var(--color-chocolate);
+}
+.frameChild,
+.shapeTrimmer {
+  align-self: stretch;
+  max-width: 100%;
+}
+.shapeTrimmer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-45xl);
+}
+.frameChild {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+}
+.vectorWrapper {
+  height: 46px;
+  width: 46px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-coral);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi) var(--padding-5xs);
+  box-sizing: border-box;
+}
+.vectorIcon1,
+.vectorIcon2 {
+  position: relative;
+  min-height: 19px;
+}
+.vectorIcon1 {
+  align-self: stretch;
+  width: 12.8px;
+  max-height: 100%;
+}
+.vectorIcon2 {
+  height: 19.2px;
+  width: 14.5px;
+}
+.vectorIcon3 {
+  width: 14.4px;
+}
+.vector,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 18.5px;
+  position: relative;
+}
+.vector {
+  margin: 0;
+  width: 12.4px;
+}
+.vectorIcon4 {
+  width: 16.4px;
+}
+.typo {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-10xs);
+}
+.frameParent,
+.loremIpsumDolor,
+.typo {
+  display: flex;
+  align-items: center;
+}
+.frameParent {
+  border-radius: var(--br-41xl);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-149xl) var(--padding-xl) 0;
+  gap: var(--gap-3xs);
+}
+.loremIpsumDolor {
+  margin: 0;
+  align-self: stretch;
+  height: 61px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  flex-shrink: 0;
+}
+.uiIcontwitterfilled,
+.vuesaxboldfacebookIcon,
+.vuesaxboldinstagramIcon,
+.vuesaxboldwhatsappIcon,
+.vuesaxboldyoutubeIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.uiIcontwitterfilled {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.anchorPoint,
+.navigationMenu {
+  display: flex;
+  align-items: flex-start;
+}
+.anchorPoint {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.navigationMenu {
+  width: 635px;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 239px;
+  max-width: 100%;
+  color: var(--color-gray-100);
+}
+.home,
+.navigation {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.navigation {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 103px;
+}
+.home {
+  width: 46px;
+  display: flex;
+  align-items: center;
+}
+.aboutUs,
+.project,
+.resume,
+.service {
+  position: relative;
+  letter-spacing: -0.01em;
+  display: inline-block;
+}
+.aboutUs {
+  text-decoration: none;
+  color: inherit;
+  min-width: 69px;
+}
+.project,
+.resume,
+.service {
+  min-width: 56px;
+}
+.project,
+.resume {
+  min-width: 61px;
+}
+.project {
+  text-decoration: none;
+  color: inherit;
+  min-width: 54px;
+}
+.blendMode,
+.strokeType {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.strokeType {
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.blendMode {
+  gap: var(--gap-9xl);
+}
+.contact,
+.div {
+  display: inline-block;
+}
+.contact {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  min-width: 77px;
+}
+.div {
+  min-width: 114px;
+  white-space: nowrap;
+}
+.div,
+.jaycrea36gmailcom,
+.portfolioJcreacom {
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.jaycrea36gmailcom {
+  align-self: stretch;
+  white-space: nowrap;
+}
+.portfolioJcreacom {
+  width: 144px;
+  display: flex;
+  align-items: center;
+}
+.fontSize,
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.fontSize {
+  width: 168px;
+  gap: var(--gap-9xl);
+}
+.emailField,
+.getTheLatest {
+  display: flex;
+  align-items: center;
+}
+.getTheLatest {
+  width: 242px;
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+.emailField {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--white);
+  height: 51px;
+  flex: 1;
+  border-radius: var(--br-sm) 0 0 var(--br-sm);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-sm);
+  box-sizing: border-box;
+  font-family: var(--font-lufga);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  min-width: 155px;
+}
+.uiIconsendfilled {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.subPages {
+  border-radius: 0 var(--br-sm) var(--br-sm) 0;
+  background-color: var(--color-coral);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm-5) var(--padding-2xs);
+}
+.contactInfo,
+.getTheLatestInformationParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactInfo {
+  align-self: stretch;
+  flex-direction: row;
+}
+.getTheLatestInformationParent {
+  width: 304px;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.navigationMenuParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  color: var(--color-coral);
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.copyright2023Jayesh,
+.userTerms {
+  position: relative;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.copyright2023Jayesh {
+  margin: 0;
+  width: 415px;
+}
+.userTerms {
+  width: 370px;
+}
+.shapeTrimmerParent,
+.spacingControls {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.spacingControls {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  color: var(--white);
+}
+.shapeTrimmerParent {
+  border-radius: var(--br-5xl) var(--br-5xl) 0 0;
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-52xl);
+  box-sizing: border-box;
+  min-height: 685px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 1425px) {
+  .navigationMenuParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .shapeTrimmer,
+  .spacingControls {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .letsConnectThere {
+    font-size: var(--font-size-32xl);
+  }
+  .shapeTrimmerParent {
+    padding: var(--padding-xl) var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .letsConnectThere {
+    font-size: var(--font-size-19xl);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contact,
+  .copyright2023Jayesh,
+  .getTheLatest,
+  .loremIpsumDolor,
+  .navigation,
+  .userTerms {
+    font-size: var(--font-size-base);
+  }
+}
